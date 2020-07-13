@@ -1,0 +1,17 @@
+#include<iostream>
+
+int main()
+{
+	int n{};
+	std::cout << "Enter n: ";
+	std::cin >> n;
+	std::cout << "Enter n numbers: ";
+	long double sum{}, x{};
+	for (int i{}; i < n; i++)
+	{
+		std::cin >> x;
+		sum += x * (n - i)*(i + 1);
+	}
+	std::cout << "Ans = " << sum << std::endl;
+    return 0;
+}

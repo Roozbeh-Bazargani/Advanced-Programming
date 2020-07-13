@@ -1,0 +1,8 @@
+Took(2): 284 microseconds
+Took(5): 284 microseconds
+Took(10): 387 microseconds
+Took(20): 374 microseconds
+Took(40): 703 microseconds
+Took(80): 1901 microseconds
+Took(100): 2174 microseconds
+Took(150): 5125 microseconds

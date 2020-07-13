@@ -1,0 +1,85 @@
+html{}
+
+body{
+	margin: 10% 25%;
+	font-family: 'Roboto Condensed', sans-serif; /* font */ 
+}
+
+.top{
+	margin-bottom: 3%;
+	padding-bottom: 3%;
+	border-bottom: 0.9px solid #d2d1da; /* making light line */
+	font-weight:bolder;
+}
+
+.top_c{
+	font-weight: 500;
+    font-size: 65%; /* smaller font size */
+	padding-left: 3%;
+}
+
+.top_sort{
+	float: right; /* write from right */
+	border-radius: 7px;
+	height: 10%;
+	width: 20%;
+}
+
+.strong_rows{
+	border-bottom:1.5px solid #d2d1da; /* making bold line  and color of that */
+	margin-bottom: 3%;
+	padding-bottom: 3%;
+}
+
+.weak_rows{
+	border-bottom:0.9px solid #d2d1da;
+	margin-bottom: 3%;
+	padding-bottom: 3%;
+}
+
+.row_img{ /* image */
+	margin-left:2%;
+	margin-right:2%;
+	display: inline-block;
+	background-image: url("Q-icon.png");
+	width: 30px;
+    height: 30px;
+    vertical-align: middle; 
+	background-position: 0px 2px; /* put it in the right position */
+}
+
+.row_q{ /* give it simple font */
+	color: #000; 
+	text-decoration: none;
+}
+
+.row_ans{
+	font-size:85%;
+	font-weight: bolder;
+	float: right;
+	color: #000;
+	text-decoration: none; /* make it simple */
+	margin-right:2%;
+}
+
+.bottom_page{
+	margin-left:2%;
+	font-size: 65%;
+	font-weight: bold;
+}
+
+.ask_button{
+	float: right;
+	display: inline-block;
+	width: 14%;
+	height: 120%;
+	margin-right: 2%;
+	color: #ff9c47; /* orange color */
+	background-color: white; /* change from gray to white */
+	font-weight: bolder;
+	font-stretch: ultra-condensed; /* narrowing words */
+	font-size: 95%;
+	padding: 0.1%;
+	padding-bottom: 0.8%;
+	padding-top: 0.8%;
+}

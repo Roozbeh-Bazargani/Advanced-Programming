@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--head, title and links-->
+  <title>9523012</title> <!--title-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/Mystyle.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body background="background.JPG" class="mybody"> <!--body-->
+
+	<script>
+		function clicked1()
+		{
+			alert("Hello! Sea clicked!");
+		}
+		function clicked12()
+		{
+			alert("Hello! Road clicked!");
+		}
+		function clicked3()
+		{
+			alert("Hello! Air clicked!");
+		}
+		function clicked4()
+		{
+			alert("Hello! Rail clicked!");
+		}
+
+	</script>>
+
+	<div>
+		<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="Myheader"> <!-- head Top of body -->
+			<h1>Find the best Freight Quote</h1>
+		</div>
+		
+		<div class="container col-xs-12 col-sm-12 col-md-12 col-lg-12" id="toptext"> <!-- paragraph Top of body -->
+			<p>Get all the information you need to make the smart choice of shipping service</p>
+		</div>
+		
+		<div class="text-center col-xs-12 col-sm-12 col-md-12 col-lg-12"> <!-- middle of body -->
+		
+		<div class="col-xs-1 col-sm-1 col-md-1 col-lg-2"></div> <!-- responsive bootstrap -->
+		<div class="col-xs-10 col-sm-10 col-md-10 col-lg-8">
+			<div class="col-xs-1 col-sm-2 col-md-3 col-lg-4"></div>
+			<div class="btn-group  col-xs-10 col-sm-8 col-md-6 col-lg-4"> <!-- buttons -->
+				<button type="button" onclick="clicked1()" class="btn btn-info col-xs-3 col-sm-3 col-md-3 col-lg-3 mybutton"> <i style="font-size:15px" class="material-icons">&#xe532;</i>  Sea</button>
+				<button type="button" onclick="clicked2()" class="btn btn-info col-xs-3 col-sm-3 col-md-3 col-lg-3 mybutton"> <i style="font-size:15px" class="material-icons">&#xe558;</i>  Road</button>
+				<button type="button" onclick="clicked3()"class="btn btn-info col-xs-3 col-sm-3 col-md-3 col-lg-3 mybutton"> <i style="font-size:15px" class="fa">&#xf072;</i>  Air</button>
+				<button type="button" onclick="clicked4()" class="btn btn-info col-xs-3 col-sm-3 col-md-3 col-lg-3 mybutton"> <i style="font-size:15px" class="material-icons">&#xe570;</i>  Rail</button>
+			<div class="col-xs-1 col-sm-2 col-md-3 col-lg-4"></div>
+			</div>
+		<div class="col-xs-1 col-sm-1 col-md-1 col-lg-2"></div>
+		</div>
+		</div>
+	</div>
+	
+
+  	 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 15px;"></div> <!-- end of body -->
+
+	<div>
+  	 <div class="col-xs-1 col-sm-1 col-md-2 col-lg-3"></div>
+  	 <div class="col-xs-10 col-sm-10 col-md-8 col-lg-6 form-row mytext">
+  	 	<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding: 1px;">
+			<div class="input-group"> <!-- Place of loading -->
+				<span class="input-group-addon" style="background-color: white; border-bottom-left-radius: 5px; border-top-left-radius: 5px;"><i class="glyphicon glyphicon-font"  style="color: lightgreen;"></i></span>   
+		    	<input type="text" class="form-control" name="place1" placeholder="Place of loading" style="height: 40px; border-radius: 0px;">
+			</div>
+		</div>	
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding: 0.5px;">
+			<div class="input-group"> <!-- Place of discharge -->
+				<span class="input-group-addon" style="background-color: white;  border-radius: 0px;"><i class="glyphicon glyphicon-bold" style="color: orange;"></i></span>   
+		    	<input type="text" class="form-control" name="place2" placeholder="Place of discharge" style="height: 40px; border-radius: 0px;">
+			</div>
+		</div> 	 	
+  	 	<div class=" form-group col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding: 1px;"> <!-- select -->
+			<select class="form-control myselect" style="height: 40px;">
+				<option>20'ST Container</option>
+				<option>30'ST Container</option>
+				<option>40'ST Container</option>
+				<option>50'ST Container</option>
+				<option>60'ST Container</option>
+			</select>
+  	 	</div>
+  	 </div>
+  	</div>
+	<div>
+		 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top: 20px;"></div>
+
+		 <div class="col-xs-1 col-sm-1 col-md-3 col-lg-3"></div>
+		 <div class="col-xs-10 col-sm-10 col-md-6 col-lg-6">
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+			<button type="button" class="btn btn-md col-xs-3 col-sm-3 col-md-3 col-lg-3" id="myfind">Find Quote</button> <!-- Find Quote -->
+			<button type="button" class="btn btn-md col-xs-3 col-sm-3 col-md-3 col-lg-3" id="mymed">Medium</button> <!-- Medium -->
+			<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+		 </div>
+		 <div class="col-xs-1 col-sm-1 col-md-3 col-lg-3"></div>
+	</div>
+
+
+
+
+</body>
+</html>
+
